@@ -1,7 +1,3 @@
-export function somar(a: number, b: number) {
-    return a + b
-}
+import menuPrincipal from "./app/menu/menuPrincipal";
 
-const test = somar(1, 2);
-
-console.log(test);
+menuPrincipal();
