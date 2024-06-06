@@ -8,13 +8,13 @@ export default class Honda implements Carro {
 
   acelerar(): void {
     this._velocidadeAtual = Math.min(
-      this._velocidadeAtual + 2,
+      this._velocidadeAtual + 20,
       this.velocidadeMaxima,
     );
   }
 
   frear(): void {
-    this._velocidadeAtual = Math.max(this.velocidadeAtual - 2, 0);
+    this._velocidadeAtual = Math.max(this.velocidadeAtual - 20, 0);
   }
 
   get velocidadeAtual() {
